@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne",
+      "lastName": "Graham",
+      "email": "hello@world.com",
+      "password": "password123",
+      "gender": "female",
+      "country": "USA"
+    },
+    {
+      "name": "Derek",
+      "lastName": "Welch",
+      "email": "derek.welch@example.com",
+      "password": "asdasd",
+      "gender": "female",
+      "country": "country 2",
+      "terms": "on",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

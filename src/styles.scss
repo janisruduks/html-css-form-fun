@@ -1,0 +1,168 @@
+body {
+  background-color: #aff3bc;
+  background-image: url("./assets/images/bg.svg");
+  font-family: 'Victor Mono', monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: #992e85;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+input,
+select {
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #992e85;
+  padding: 5px;
+  color: #aff3bc;
+  border: 3px solid #992e85;
+}
+
+select {
+  width: 100%;
+}
+
+::placeholder {
+  color: #aff3bb8e;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.alert {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.js-success {
+  background-color: #aff3bc;
+  color: #7a236f;
+}
+
+.js-error {
+  background-color: hsl(308, 55%, 31%);
+  color: #FF5733;
+}
+
+.vertical-block {
+  width: 10px;
+  height: 100%;
+  background-color: #992e85;
+  border-radius: 5px;
+}
+
+.form-heading {
+  font-size: 18px;
+}
+
+.link {
+  color: #ca3bb0;
+}
+
+.form-wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.display-center {
+  display: flex;
+  justify-content: center;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.inline-flex {
+  display: flex;
+}
+
+.inline-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.submit-button {
+  padding: 8px;
+  width: 70%;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #992e85;
+  padding: 5px;
+  color: #aff3bc;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: 3px solid #992e85;
+
+  &:hover {
+    background-color: #aff3bc;
+    color: #992e85;
+    border: 3px solid #992e85;
+  }
+}
+
+.box {
+  background: rgba(175, 243, 187, 0.489);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(175, 243, 188, 0.3);
+  box-shadow: 8px 10px 8px 12px #992e85;
+  padding: 40px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  justify-items: center;
+  gap: 10px;
+  font-style: italic;
+}
+
+.user__field {
+  padding: 10px;
+  border: 1px solid #992e85;
+  margin: 5px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .form-heading {
+    font-size: 16px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .vertical-block {
+    display: none;
+  }
+}
