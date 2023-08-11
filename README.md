@@ -8,3 +8,7 @@ When all packages have been installed run:
 ```
 npm start
 ```
+and run database: 
+```
+npm start db
+```
